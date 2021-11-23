@@ -10,3 +10,8 @@
 >git commit -m ""
 >git log
 
+#Add Origin
+>git remote add origin <url - ssh>
+>git remote -v
+
+
