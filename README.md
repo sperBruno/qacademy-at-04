@@ -23,4 +23,12 @@
 
 >git remote -v
 
+>git push origin <branch name>
 
+>git pull origin <branch name>
+
+>git fetch 
+
+>git checkout -b <branch name>
+
+>git checkout <branch name>
