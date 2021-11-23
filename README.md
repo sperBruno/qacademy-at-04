@@ -32,3 +32,11 @@
 >git checkout -b <branch name>
 
 >git checkout <branch name>
+
+#Revert
+
+>git revert <id of commit>
+
+#Reset
+
+>git reset --hard <id of commit>
