@@ -40,3 +40,8 @@
 #Reset
 
 >git reset --hard <id of commit>
+
+#Tools
+*git bash
+*smartgit
+*sourcetree
