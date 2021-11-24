@@ -54,3 +54,4 @@
 
 #Collaborators
 Bruno Barrios (blbarrios@outlook.com)
+Anghela Lizarro (anghelalizarro7@gmail.com)
