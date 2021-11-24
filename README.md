@@ -64,8 +64,13 @@ Solution:
 8. git commit -m "Added my name Miguel"
 9. git push origin AT-Miguel
 10. Crear el PR en github donde mi base es main y mi branch es lo que voy a merger
+
+---
 #Collaborators
+---
+
 Bruno Barrios (blbarrios@outlook.com)
 Nelson Morante (nelson.morante.nina.07@gmail.com)
 Franz Salinas (salinasfranzruddy@gmail.com)
 Paola Rios (paola.rios.grageda@gmail.com)
+Edson Sahonero (edson.s7@outlook.com)
