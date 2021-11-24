@@ -1,53 +1,54 @@
 # qacademy-at-04
 
 #GIT COMMANDS
->git config --global user.name
 
->git config --globar user.email
+> git config --global user.name
 
->git init
+> git config --globar user.email
 
->git add 
+> git init
 
->git status
+> git add
 
->git commit 
+> git status
 
->git commit -m ""
+> git commit
 
->git log
+> git commit -m ""
+
+> git log
 
 #Add Origin
 
->git remote add origin <url - ssh>
+> git remote add origin <url - ssh>
 
->git remote -v
+> git remote -v
 
->git push origin <branch name>
+> git push origin <branch name>
 
->git pull origin <branch name>
+> git pull origin <branch name>
 
->git fetch 
+> git fetch
 
->git checkout -b <branch name>
+> git checkout -b <branch name>
 
->git checkout <branch name>
+> git checkout <branch name>
 
 #Revert
 
->git revert <id of commit>
+> git revert <id of commit>
 
 #Reset
 
->git reset --hard <id of commit>
+> git reset --hard <id of commit>
 
 #Tools
 *git bash
 *smartgit
-*sourcetree
-
+\*sourcetree
 
 #Practice
+
 1. Create branch
 2. Add your name to the readme file after collaborator title
 3. Create PR
@@ -65,3 +66,4 @@ Solution:
 10. Crear el PR en github donde mi base es main y mi branch es lo que voy a merger
 #Collaborators
 Bruno Barrios (blbarrios@outlook.com)
+Nelson Morante (nelson.morante.nina.07@gmail.com)
