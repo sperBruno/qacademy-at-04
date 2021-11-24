@@ -40,17 +40,3 @@
 #Reset
 
 >git reset --hard <id of commit>
-
-#Tools
-*git bash
-*smartgit
-*sourcetree
-
-
-#Practice
-1. Create branch
-2. Add your name to the readme file after collaborator title
-3. Create PR
-
-#Collaborators
-Bruno Barrios (blbarrios@outlook.com)
