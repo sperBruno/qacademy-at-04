@@ -51,6 +51,17 @@
 1. Create branch
 2. Add your name to the readme file after collaborator title
 3. Create PR
-
+Solution:
+1. git clone https://github.com/sperBruno/qacademy-at-04.git
+2. cd qacademy-at-04
+2.1 git checkout -b AT-Miguel
+3. cat README.md (ver lista)
+4. nano README.md or abrir con editor de texto
+5. En la seccion de colaboradores agrego mi nombre y mi correo, guardo cambios
+6. git status
+7. git add .
+8. git commit -m "Added my name Miguel"
+9. git push origin AT-Miguel
+10. Crear el PR en github donde mi base es main y mi branch es lo que voy a merger
 #Collaborators
 Bruno Barrios (blbarrios@outlook.com)
