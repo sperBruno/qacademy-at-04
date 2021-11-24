@@ -67,3 +67,4 @@ Solution:
 #Collaborators
 Bruno Barrios (blbarrios@outlook.com)
 Nelson Morante (nelson.morante.nina.07@gmail.com)
+Franz Salinas (salinasfranzruddy@gmail.com)
