@@ -72,4 +72,5 @@ Solution:
 Bruno Barrios (blbarrios@outlook.com)
 Nelson Morante (nelson.morante.nina.07@gmail.com)
 Franz Salinas (salinasfranzruddy@gmail.com)
+Paola Rios (paola.rios.grageda@gmail.com)
 Edson Sahonero (edson.s7@outlook.com)
