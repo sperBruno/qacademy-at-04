@@ -52,6 +52,7 @@
 1. Create branch
 2. Add your name to the readme file after collaborator title
 3. Create PR
+
 Solution:
 1. git clone https://github.com/sperBruno/qacademy-at-04.git
 2. cd qacademy-at-04
