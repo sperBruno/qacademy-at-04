@@ -73,6 +73,8 @@ Setup project
 
 > npm install --save-dev jest
 
+> npm install
+
 ---
 Collaborators
 ---
