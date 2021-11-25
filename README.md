@@ -67,6 +67,13 @@ Solution:
 10. Crear el PR en github donde mi base es main y mi branch es lo que voy a merger
 
 ---
+Setup project
+---
+> npm init
+
+> npm install --save-dev jest
+
+---
 #Collaborators
 ---
 
