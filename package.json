@@ -1,4 +1,12 @@
 {
+  "dependencies": {
+    "jest": "^27.3.1"
+  },
+  "name": "qacademy-at-04",
+  "description": "> git config --global user.name",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
   "name": "first-at-04-project",
   "version": "1.0.0",
   "description": "#GIT COMMANDS",
@@ -15,6 +23,7 @@
   "bugs": {
     "url": "https://github.com/sperBruno/qacademy-at-04/issues"
   },
+  "homepage": "https://github.com/sperBruno/qacademy-at-04#readme"
   "homepage": "https://github.com/sperBruno/qacademy-at-04#readme",
   "devDependencies": {
     "jest": "^27.3.1"

@@ -85,5 +85,7 @@ Collaborators
 Nelson Morante (nelson.morante.nina.07@gmail.com)
 Franz Salinas (salinasfranzruddy@gmail.com)
 Paola Rios (paola.rios.grageda@gmail.com)
+Edson Sahonero (edson.s7@outlook.com)
 Edson Sahonero (edson_s7@outlook.com)
 Miguel Vega (ingsis.mvega@gmail.com)
+
