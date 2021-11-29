@@ -52,6 +52,7 @@
 1. Create branch
 2. Add your name to the readme file after collaborator title
 3. Create PR
+
 Solution:
 1. git clone https://github.com/sperBruno/qacademy-at-04.git
 2. cd qacademy-at-04
@@ -64,7 +65,24 @@ Solution:
 8. git commit -m "Added my name Miguel"
 9. git push origin AT-Miguel
 10. Crear el PR en github donde mi base es main y mi branch es lo que voy a merger
-#Collaborators
-Bruno Barrios (blbarrios@outlook.com)
+
+---
+Setup project
+---
+> npm init
+
+> npm install --save-dev jest
+
+> npm install
+
+---
+Collaborators
+---
+
+>Bruno Barrios (blbarrios@outlook.com)
+
+>Anghela Lizarro (anghelalizarro7@gmail.com)
 Nelson Morante (nelson.morante.nina.07@gmail.com)
 Franz Salinas (salinasfranzruddy@gmail.com)
+Paola Rios (paola.rios.grageda@gmail.com)
+Edson Sahonero (edson.s7@outlook.com)
