@@ -5,9 +5,9 @@ describe("Tienda tests", () => {
   test("Calcular total ", () => {
     //Arrange
     const tiendaPepito = new tienda("pepito");
-    tiendaPepito.addProduct(new producto("Pan", 1));
-    tiendaPepito.addProduct(new producto("Fideos", 5));
-    tiendaPepito.addProduct(new producto("Bolsa de leche", 6));
+    tiendaPepito.addProduct(new producto(1, "Pan", 1));
+    tiendaPepito.addProduct(new producto(1, "Fideos", 5));
+    tiendaPepito.addProduct(new producto(1, "Bolsa de leche", 6));
 
     const totalEsperado = 12;
     //Act
@@ -21,12 +21,12 @@ describe("Tienda tests", () => {
   test("Test to create invoice ", () => {
     // Arrange
     const tiendaPepito = new tienda("pepito");
-    tiendaPepito.addProduct(new producto("Pan", 1));
-    tiendaPepito.addProduct(new producto("Fideos", 5));
-    tiendaPepito.addProduct(new producto("Bolsa de leche", 6));
+    tiendaPepito.addProduct(new producto(1, "Pan", 1));
+    tiendaPepito.addProduct(new producto(1, "Fideos", 5));
+    tiendaPepito.addProduct(new producto(1, "Bolsa de leche", 6));
     const totalEsperado = 12;
     const facturaEspera =
-      "Pan - Bs 1\nFideos - Bs 5\nBolsa de leche - Bs 6\nTotal - Bs 12";
+      "1 - Pan - Bs 1\n1 - Fideos - Bs 5\n1 - Bolsa de leche - Bs 6\nTotal - Bs 12";
 
     // Act
     const facturaActual = tiendaPepito.getFactura();
@@ -34,5 +34,21 @@ describe("Tienda tests", () => {
     // Assert
     expect(total).toBe(totalEsperado);
     expect(facturaActual).toBe(facturaEspera);
+  });
+
+  test("Get Factura with items number ", () => {
+      // Arrange
+    const tiendaPepito = new tienda("pepito");
+    tiendaPepito.addProduct(new producto(3, "Pan", 1));
+    tiendaPepito.addProduct(new producto(2, "Fideos", 5));
+    tiendaPepito.addProduct(new producto(1, "Bolsa de leche", 6));
+    const facturaEspera =
+    "3 - Pan - Bs 1\n2 - Fideos - Bs 5\n1 - Bolsa de leche - Bs 6\nTotal - Bs 19";
+
+    // Act
+    const facturaActual = tiendaPepito.getFactura();
+
+    //Assert 
+    expect(facturaActual).toBe(facturaEspera)
   });
 });
